@@ -9,61 +9,71 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="container-fluid">
-            <h1 class="text-center">SALES</h1>
+        <div class="container-fluid text-center my-3 display-1 fw-bold">
+            SALES
         </div>
         <div class="container-fluid">
             <form action="chapter_4_activity_functions.php" method="POST" class="mt-5">
-                <table class="table table-borderless">
+                <!-- <table class="table table-borderless">
                     <tbody>
                         <tr>
-                            <td class="col-4"><label for=""><h2>Shirts</h2></label></td>
+                            <td class="col-4"><label for=""><h1>Shirts</h1></label></td>
                             <td><input type="text" class="form-control col border-success border-2" id="shirts_price" name="shirts_price" placeholder="Price"></td>
                             <td><input type="text" class="form-control col border-success border-2" id="shirts_quantity" name="shirts_quantity" placeholder="Quantity"></td>
                         </tr>
                         <tr>
-                            <td class="col-4"><label for=""><h2>Pants</h2></label></td>
+                            <td class="col-4"><label for=""><h1>Pants</h1></label></td>
                             <td><input type="text" class="form-control col border-danger border-2" id="pants_price" name="pants_price" placeholder="Price"></td>
                             <td><input type="text" class="form-control col border-danger border-2" id="pants_quantity" name="pants_quantity" placeholder="Quantity"></td>
                         </tr>
                         <tr>
-                            <td class="col-4"><label for=""><h2>Shoes</h2></label></td>
+                            <td class="col-4"><label for=""><h1>Shoes</h1></label></td>
                             <td><input type="text" class="form-control col border-warning border-2" id="shoes_price" name="shoes_price" placeholder="Price"></td>
                             <td><input type="text" class="form-control col border-warning border-2" id="shoes_quantity" name="shoes_quantity" placeholder="Quantity"></td>
                         </tr>
-                        <!-- <tr>
-                            <td colspan="4"><input type="submit" Value="Submit" class="btn btn-primary shadow-none"></td>
-                        </tr>  -->
                     </tbody>
                 </table>
-                <div class="div">
-                    <input type="submit" Value="Submit" class="btn btn-primary shadow-none">
-                </div>
-                        
-
-
-
-
-
-
-                <!-- <div class="row form-group mb-3">
-                    <label for="" class="col"><h2>Shirts</h2></label>
-                    <input type="text" class="form-control col border-success border-2"" id="shirts_price" name="shirts_price" placeholder="Price">
-                    <input type="text" class="form-control col border-success border-2" id="shirts_quantity" name="shirts_quantity" placeholder="Quantity">
-                </div>
-                <div class="row form-group mb-3">
-                    <label for="" class="col"><h2>Pants</h2></label>
-                    <input type="text" class="form-control col border-danger border-2"" id="pants_price" name="pants_price" placeholder="Price">
-                    <input type="text" class="form-control col border-danger border-2" id="pants_quantity" name="pants_quantity" placeholder="Quantity">
-                </div>
-                <div class="row form-group mb-5">
-                    <label for="" class="col"><h2>Shoes</h2></label>
-                    <input type="text" class="form-control col border-warning border-2" id="shoes_price" name="shoes_price" placeholder="Price">
-                    <input type="text" class="form-control col border-warning border-2" id="shoes_quantity" name="shoes_quantity" placeholder="Quantity">
-                </div>
-                <div class="row form-group">
-                    <input type="submit" Value="Submit" class="btn btn-primary shadow-none">    
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary shadow-none" type="submit">Submit</button>
                 </div> -->
+                        
+                <div class="container-fluid">
+                    <div class="row form-group g-3">
+                        <div class="col-sm-4">
+                            <label for="" class="col-sm"><h1>Shirts</h1></label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="number" min="0" class="form-control col-sm border-success border-2 h-100" id="shirts_price" name="shirts_price" placeholder="Price">
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="number" min="0" class="form-control col-sm border-success border-2 h-100" id="shirts_quantity" name="shirts_quantity" placeholder="Quantity">
+                        </div>
+
+                        <div class="col-sm-4">
+                                <label for="" class="col-sm "><h1>Pants</h1></label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="number" min="0" class="form-control col-sm border-danger border-2 h-100" id="pants_price" name="pants_price" placeholder="Price">
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="number" min="0" class="form-control col-sm border-danger border-2 h-100" id="pants_quantity" name="pants_quantity" placeholder="Quantity">
+                        </div>
+
+                        <div class="col-sm-4">
+                                <label for="" class="col-sm"><h1>Shoes</h1></label>
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="number" min="0" class="form-control col-sm border-warning border-2 h-100" id="shoes_price" name="shoes_price" placeholder="Price">
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="number" min="0" class="form-control col-sm border-warning border-2 h-100" id="shoes_quantity" name="shoes_quantity" placeholder="Quantity">
+                        </div>
+
+                        <div class="col-sm mt-5">
+                            <button class="btn btn-primary shadow-none w-100" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
             </form>
         </div>
     </div>
