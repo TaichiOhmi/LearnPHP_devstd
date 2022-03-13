@@ -1,15 +1,15 @@
 <?php
 
     function CountUp($start, $end){
-        do{
+        while($start <= $end){
             echo $start." ";
             $start++;
-        }while($start <= $end);
+        }
     }
 
     function CountDown($start, $end){
-        do{
+        while($start >= $end){
             echo $start." ";
             $start--;
-        }while($start >= $end);
+        }
     }
