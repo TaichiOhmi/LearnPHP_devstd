@@ -20,9 +20,10 @@
         return $first % $second;
     }
 
-    // function Exponential($first, $second) {
-    //     return pow($first, $second);
-    // }
+    function Exponential($first, $second) {
+        return $first ** $second;
+        // return pow($first, $second);
+    }
 
     ?>
 

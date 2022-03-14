@@ -45,7 +45,7 @@
             }
     
             elseif($method == "exponential"){
-                $result = pow($first, $second);
+                $result = Exponential($first, $second);
             }
         }
     ?>
